@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.one{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+   
+}
+.one li{
+    background-color: #48dbfb;
+    color:black;
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid transparent ;
+}
+.one li:hover{
+    background-color:rgb(8, 85, 85);
+    color: white;
+    transition: .3s;
+    border:1px solid black;
+    
+}
+.two{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color:black;
+    background-color: rgb(115, 211, 255);
+    width: 97%;
+    height: 200px;
+   
+}
+
+.coto{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+h4{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+
+}
+.two a{
+    padding:13px;
+    background-color: white;
+    color: gray;
+ border-radius: 10px;
+ margin: 10px;
+    
+
+}
+.moto{
+    background-color:#dff9fb ;
+    padding: 30px;
+    color: black;
+   
+    text-align: center;
+ 
+}
+.ami{
+    font-size: large;
+}
+h3{
+    color: black;
+font-size: 20px;
+
+padding: 10px;
+margin: 5px;
+}
+.wrapperdiv{
+
+    border: 2px solid #dff9fb;
+    margin: auto;
+    text-align: center;
+}
+.basic{
+  
+    background-color:black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    
+}
+.div1{
+    transition: .5s;
+ 
+}
+.div1:hover{
+    transform: rotate(-40deg);
+}
+.div2{
+
+  transition: .5s;
+}
+.div2:hover{
+    transform: translateX(12px);
+}
+.div3{
+    transition: .5s;
+   
+}
+.div3:hover{
+   transform:  rotate(40deg);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;  
+    color: white;
+    margin: 0;
+  
+}
